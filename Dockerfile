@@ -1,3 +1,3 @@
 FROM php:7.3-fpm
-COPY mpesakya_portal-master/. /var/www/
+COPY app/. /var/www/
 EXPOSE 9000
